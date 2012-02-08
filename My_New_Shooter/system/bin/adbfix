@@ -1,7 +1,0 @@
-#!/system/bin/bash
-if [ -e /data/adbfix.txt ]
-  then
-    echo "[ ] Starting ADB Daemon"
-    cd /data
-    /system/bin/busybox.a2sd nohup /sbin/adbd &
-fi

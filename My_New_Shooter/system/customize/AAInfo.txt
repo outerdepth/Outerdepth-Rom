@@ -1,6 +1,0 @@
-TaskID : 208982
-Project : SuperSonic_GB
-SKU : Sprint WWE[651]
-ROM Ver : 4.53.651.1
-Customization Id : 177316
-RCMS Id : 91
