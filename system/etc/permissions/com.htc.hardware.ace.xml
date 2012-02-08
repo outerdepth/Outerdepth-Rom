@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file lists ace device libraries for applications to link to. -->
+<permissions>
+    <library name="com.htc.hardware.ace"
+            file="/system/framework/com.htc.hardware.ace.jar" />
+</permissions>

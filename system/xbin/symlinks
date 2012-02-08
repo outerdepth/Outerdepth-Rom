@@ -1,0 +1,11 @@
+#!/system/bin/bash
+BUSYBOX="/system/xbin/busybox"
+cd /data/app_s
+filelist=`$BUSYBOX find . -type f`
+for i in $filelist
+do
+	if [ ! -e /system/app/$i ]; 
+	then
+		$BUSYBOX ln -s /data/app_s/$i /system/app/$i
+	fi
+done
